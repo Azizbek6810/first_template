@@ -1,0 +1,292 @@
+/* General Styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* Header Styles */
+.header {
+  background-color: #5855e7;
+  color: #fff;
+  flex: 1;
+  padding: 0 100px;
+}
+.links {
+  display: flex;
+  flex: 5;
+  justify-content: space-evenly;
+}
+.contactBtn {
+  padding: 10px 35px;
+  border-radius: 5px;
+  border: none;
+}
+.link a {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+.contactBtn {
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+/* Hero Styles */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.heroInfo {
+  margin-left: 130px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.heroImg {
+  width: 600px;
+}
+
+.heroInfo h1 {
+  width: 540px;
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+}
+.heroInfo h1 span {
+  color: #5855e7;
+  font-size: 40px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.heroInfo p {
+  width: 534px;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.heroButtons {
+  display: flex;
+  column-gap: 20px;
+}
+.heroBtn {
+  border-radius: 10px;
+  border: none;
+}
+.call {
+  background-color: #6347eb;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 32px;
+}
+.details {
+  background-color: transparent;
+  color: #000;
+  font-size: 32px;
+  border: 2px solid #6347eb;
+  padding: 8px 30px;
+}
+/* About Styles */
+.about {
+  margin: 100px 0;
+}
+.aboutInfo p {
+  width: 584px;
+}
+/* Advantages Styles */
+
+.advantages {
+  background-color: #5855e7;
+  color: white;
+  text-align: center;
+  padding: 75px 0;
+}
+.advantages h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+.advantagesBoxes {
+  padding: 0 10px;
+  display: flex;
+  align-items: stretch;
+  column-gap: 100px;
+  justify-content: space-evenly;
+  row-gap: 80px;
+  flex-wrap: wrap;
+}
+.advantagesBox {
+  padding: 10px;
+  width: 320px;
+}
+.advantagesBox h3 {
+  margin: 30px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.advantagesBox p {
+  font-size: 16px;
+  font-weight: 400;
+}
+/* Class Styles */
+.classes {
+  margin: 100px 0;
+}
+.classes h1 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.classBoxes {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 50px;
+  row-gap: 50px;
+}
+.classBox {
+  background-color: #6347eb;
+  color: #fff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.classBox button {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 24px;
+  color: #6347eb;
+}
+/* Contact styles */
+
+.contactBox {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #5855e7;
+  border-radius: 10px;
+  color: white;
+  padding: 40px;
+  column-gap: 100px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.contactInfo img {
+  width: 480px;
+  height: 430px;
+  object-fit: contain;
+}
+.contact {
+  margin: 100px 0;
+}
+.contact h1 {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.contactInfo h2,
+.contactInfo ul {
+  margin-left: 30px;
+  font-weight: 500;
+}
+.contactInfo ul {
+  list-style-position: inside;
+  list-style-image: url("./assets/Screenshot_4.png");
+}
+.contactInfo ul li {
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+/* .contactForm, .contactInfo{
+  border: 2px solid #000;
+} */
+.contactForm h2 {
+  font-weight: 500;
+}
+.contactForm p {
+  margin: 20px 0;
+}
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.contactForm input[type="text"],
+.contactForm textarea {
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  outline: none;
+}
+.contactForm button {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+/* footer Style */
+footer {
+  background-color: #5855e7;
+  color: #fff;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.footerContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  font-weight: 400;
+}
+.numbers {
+  line-height: 22px;
+}
+.footerSocials{
+  text-align: center;
+}
+.social{
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
